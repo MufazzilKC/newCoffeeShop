@@ -46,16 +46,6 @@ html, body {
     font-family: "Dancing Script", cursive; 
   }
   
-  #intro-picture {
-    height: 40%;
-    width: 30%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    border-radius: 8px; 
-  }
-  
   #title {
     display: block;
     margin-left: auto;
@@ -64,7 +54,7 @@ html, body {
     width: auto;
     text-align: center;
     margin-top: 30px;
-    font-family: "Dancing Script", cursive;  
+    font-family: "Dancing Script", cursive; 
   }
   
   #intro-paragraph {
@@ -79,10 +69,42 @@ html, body {
     font-weight: 400;
   }
   
+  #drinks-menu, #pastries-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px; 
+  }
+  
+  #drinks-menu img, #pastries-menu img {
+    max-width: 20%;
+    height: auto; 
+    margin: 0 30px;
+    border-radius: 5px; 
+  }
+  
+  #drinks-text, #price-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Dancing Script", cursive; 
+    margin-right:15px;
+  }
+  
+  #price-text {
+    font-family: "Work Sans", sans-serif; 
+    font-weight: 400;
+  }
+  
+  a {
+    text-decoration: none; 
+    color: black; 
+  }
+  
   #footer-bar {
     padding-top: 30px;
     padding-bottom: 30px;
-    border: 1px solid black;
+    border: 1px solid black; 
     margin-left: 30px;
     margin-right: 40px;
     margin-top: 80px; 
@@ -98,9 +120,4 @@ html, body {
     font-family: "Work Sans", sans-serif; 
     font-weight: 400;
   }
-  
-  a {
-    text-decoration: none; 
-    color: black; 
-  }
-  
+
